@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water Glass - Google Chrome Browser Extension</title>
+    <meta name="description" content="Google Chrome Browser Extension To Track Water Intake.">
+    <meta name="keywords" content="Chrome,Extension,Water, Glass">
+    <meta name="author" content="OneClick Lab">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        color: #333;
+        background: #FDFEFE;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-align: center;
+      }
+
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        margin-left: -150px;
+        margin-top: -316px;
+      }
+
+      h1, h2 {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 30px 0 0;
+        font-weight: 400;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #999;
+      }
+
+      .copy {
+        color: #999;
+      }
+
+      .glass {
+        width: 300px;
+        background-image: -moz-linear-gradient(left, #f1f1f1, #ffffff, #f1f1f1);
+        background-image: -webkit-linear-gradient(left, #f1f1f1, #ffffff, #f1f1f1);
+        background-image: linear-gradient(to right, #f1f1f1, #ffffff, #f1f1f1);
+        height: 450px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .glass .glass-tip {
+        position: absolute;
+        top: -5px;
+        left: -10px;
+        width: 110%;
+        height: 10px;
+        border-radius: 100%;
+        background: #eee;
+      }
+      .glass:before, .glass:after {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-bottom: 450px solid white;
+        position: absolute;
+        bottom: 0px;
+        z-index: 2;
+      }
+      .glass:before {
+        left: 0px;
+        border-left: 0px solid transparent;
+        border-right: 50px solid transparent;
+      }
+      .glass:after {
+        right: 0px;
+        border-right: 0px solid transparent;
+        border-left: 50px solid transparent;
+      }
+      .glass .glass-bottom {
+        width: 60%;
+        left: 60px;
+        height: 5px;
+        position: absolute;
+        bottom: 30px;
+        background: #eee;
+        border-radius: 100%;
+      }
+      .glass .glass-full {
+        position: absolute;
+        background: #23D3F4;
+        bottom: 30px;
+        width: 100%;
+        height: 0px;
+        z-index: 1;
+
+        -webkit-transition: all 350ms ease;
+        -moz-transition: all 350ms ease;
+        -o-transition: all 350ms ease;
+        transition: all 350ms ease;
+      }
+      .glass .number {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        line-height: 350px;
+        font-size: 150px;
+        opacity: .65;
+        z-index: 3;
+        color: #000;
+      }
+    </style>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48564200-5', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+  <div class="container">
+      <div class="glass" id="glass">
+          <div class="number" id="glass-number"></div>
+          <div class="glass-tip"></div>
+          <div class="glass-bottom"></div>
+          <div class="glass-full" id="glass-water"></div>
+      </div>
+
+      <h1>Today (<strong id="date"></strong>)</h1>
+      <h2><strong>Goal:</strong> 8 cups a day</h2>
+      <p class="copy"><small><a href="http://oneclicklab.com" target="_blank">OneClick Lab</a> | <a href="http://twitter.com/oneclicklab">@oneclicklab</a> | <a href="#" id="glass-reset">Reset</a></small></p>
+  </div>
+
+  <script src="/js/glass.js"></script>
+</body>
+</html>

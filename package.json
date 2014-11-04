@@ -1,0 +1,16 @@
+{
+  "name": "water-glass",
+  "description": "WaterGlass Landing Page",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
