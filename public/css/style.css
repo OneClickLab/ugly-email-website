@@ -29,7 +29,7 @@ header h1 {
 
 header h1 span.beta {
     color: white;
-    background: #23D3F4;
+    background: #52b273;
     font-size: 12px;
     border-radius: 3px;
     padding: 5px 10px;
@@ -56,7 +56,7 @@ h3 {
 }
 
 a {
-    color: #23D3F4;
+    color: #52b273;
     text-decoration: underline;
 }
 
@@ -99,12 +99,12 @@ a {
 
 .button.orange:hover {
     color: white;
-    background: #23D3F4;
+    background: #52b273;
 }
 
 .button.orange {
-    background: #0ec5e7;
-    border: 1px solid #0ec5e7;
+    background: #52b273;
+    border: 1px solid #52b273;
     color: white;
 }
 
@@ -125,6 +125,7 @@ section {
     height: 20px;
     float: left;
     width: 100px;
+    overflow: hidden;
 }
 
 section:after {
