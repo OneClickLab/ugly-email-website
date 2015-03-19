@@ -139,6 +139,19 @@ section:after {
     margin-left: -150px;
 }
 
+.featured h3 {
+    margin-bottom: 30px;
+}
+
+.featured a {
+    opacity: .8;
+    padding: 0 15px;
+}
+
+.featured a:hover {
+    opacity: 1;
+}
+
 footer.footer {
     padding: 40px 0;
 }
