@@ -152,6 +152,28 @@ section:after {
     opacity: 1;
 }
 
+.subscribe form {
+    padding: 40px 0 0;
+}
+
+.subscribe input {
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+    font-size: .7em;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .subscribe input {
+        width: 320px;
+    }
+}
+
 footer.footer {
     padding: 40px 0;
 }
