@@ -7,6 +7,7 @@ window.UglyEmailTracker = {
     't.yesware.com': 'Yesware',
     'pstmrk.it/open': 'Postmark',
     't.signauxtrois.com': 'Sidekick',
+    'sidekickopen': 'Sideckick',
     'tinyletterapp.com': 'TinyLetter',
     'email.mixmax.com': 'MixMax',
     'mailtrack.io': 'MailTrack',
