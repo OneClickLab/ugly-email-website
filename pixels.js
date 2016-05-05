@@ -12,5 +12,7 @@ window.UglyEmailTracker = {
     'email.mixmax.com': 'MixMax',
     'mailtrack.io': 'MailTrack',
     'toutapp.com': 'toutapp',
-    'emltrk.com': 'Litmus'
+    'emltrk.com': 'Litmus',
+    'mailstat.us/tr': 'Boomerang',
+    'contactmonkey.com/api/v1/tracker': 'ContactMonkey'
 };
