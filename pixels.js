@@ -14,5 +14,6 @@ window.UglyEmailTracker = {
     'toutapp.com': 'toutapp',
     'emltrk.com': 'Litmus',
     'mailstat.us/tr': 'Boomerang',
-    'contactmonkey.com/api/v1/tracker': 'ContactMonkey'
+    'contactmonkey.com/api/v1/tracker': 'ContactMonkey',
+    'tracking.cirrusinsight.com': 'Cirrus Insight'
 };
