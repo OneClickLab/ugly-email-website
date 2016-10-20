@@ -15,5 +15,6 @@ window.UglyEmailTracker = {
     'emltrk.com': 'Litmus',
     'mailstat.us/tr': 'Boomerang',
     'contactmonkey.com/api/v1/tracker': 'ContactMonkey',
-    'tracking.cirrusinsight.com': 'Cirrus Insight'
+    'tracking.cirrusinsight.com': 'Cirrus Insight',
+    'welovepg.polymail.io': 'Polymail'
 };
