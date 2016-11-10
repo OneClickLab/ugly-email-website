@@ -19,3 +19,5 @@ window.UglyEmailTracker = {
     'welovepg.polymail.io': 'Polymail',
     'yamm-track.appspot': 'YAMM'
 };
+
+window.UglyEmailPixelVersion = '1.0.0';
