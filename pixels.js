@@ -19,7 +19,8 @@ window.UglyEmailTracker = {
     'tracking.cirrusinsight.com': 'Cirrus Insight',
     'welovepg.polymail.io': 'Polymail',
     'yamm-track.appspot': 'YAMM',
-    '/open.html?x=': 'GetResponse'
+    '/open.html?x=': 'GetResponse',
+    '/ut.php?u=': 'phpList'
 };
 
-window.UglyEmailPixelVersion = '1.0.2';
+window.UglyEmailPixelVersion = '1.0.0';
