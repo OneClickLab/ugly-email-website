@@ -1,6 +1,7 @@
 window.UglyEmailTracker = {
     '/track/open.php?u=': 'MailChimp',
     '/wf/open?upn=': 'SendGrid',
+    ''
     'dripemail2': 'Drip',
     'mailfoogae.appspot.com': 'Streak',
     'bl-1.com': 'Bananatag',
@@ -17,7 +18,8 @@ window.UglyEmailTracker = {
     'contactmonkey.com/api/v1/tracker': 'ContactMonkey',
     'tracking.cirrusinsight.com': 'Cirrus Insight',
     'welovepg.polymail.io': 'Polymail',
-    'yamm-track.appspot': 'YAMM'
+    'yamm-track.appspot': 'YAMM',
+    '/open.html?x=': 'GetResponse'
 };
 
-window.UglyEmailPixelVersion = '1.0.0';
+window.UglyEmailPixelVersion = '1.0.1';
