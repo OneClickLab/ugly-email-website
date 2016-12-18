@@ -2,6 +2,7 @@ window.UglyEmailTracker = {
     '/track/open.php?u=': 'MailChimp',
     '/wf/open?upn=': 'SendGrid',
     'dripemail2': 'Drip',
+    '/o/': 'Mailgun',
     'mailfoogae.appspot.com': 'Streak',
     'bl-1.com': 'Bananatag',
     't.yesware.com': 'Yesware',
@@ -21,4 +22,4 @@ window.UglyEmailTracker = {
     '/open.html?x=': 'GetResponse'
 };
 
-window.UglyEmailPixelVersion = '1.0.1';
+window.UglyEmailPixelVersion = '1.0.2';
