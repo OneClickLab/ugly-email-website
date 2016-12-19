@@ -23,4 +23,4 @@ window.UglyEmailTracker = {
     '/ut.php?u=': 'phpList'
 };
 
-window.UglyEmailPixelVersion = '1.0.0';
+window.UglyEmailPixelVersion = '1.0.1';
