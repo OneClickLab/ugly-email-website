@@ -20,7 +20,8 @@ window.UglyEmailTracker = {
     'welovepg.polymail.io': 'Polymail',
     'yamm-track.appspot': 'YAMM',
     '/open.html?x=': 'GetResponse',
-    '/ut.php?u=': 'phpList'
+    '/ut.php?u=': 'phpList',
+    'close.io/email_opened': 'Close.io'
 };
 
-window.UglyEmailPixelVersion = '1.0.1';
+window.UglyEmailPixelVersion = '1.0.2';
