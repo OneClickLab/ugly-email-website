@@ -1,193 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ugly Email - Gmail Extension To Check If Email Is Being Tracked</title>
-    <meta name="description" content="Gmail Extension To Check If Email Is Being Tracked">
-    <meta name="keywords" content="Chrome, Extension, Track, Email">
-    <meta name="author" content="OneClick Lab">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>Ugly Email - Gmail extension for blocking read receipts and other email tracking pixels.</title>
+  <meta name="description" content="The #1 most downloaded Gmail extension for blocking read receipts and other email tracking pixels.">
+  <meta name="keywords" content="Chrome, Extension, Track, Email, Block, Tracking, Gmail">
+  <meta name="author" content="OneClick Lab">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet" type="text/css">
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-48564200-6', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+    ga('create', 'UA-48564200-6', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1>Ugly Email</h1>
-                    <p class="description">Gmail Extension To Check If Email Is Being Tracked.</p>
-
-                    <div class="call-to-action">
-                        <a href="https://chrome.google.com/webstore/detail/uglyemail/ldgiafaliifpknmgofiifianlnbgflgj" onclick="ga('send', 'event', 'Site', 'Download Chrome Plugin');" class="button orange"><i class="fa fa-download"></i> Add to Chrome</a>
-                        <!--<span onclick="ga('send', 'event', 'Site', 'Download FireFox Plugin');" class="button"><i class="fa fa-download"></i> FireFox (coming soon)</span>-->
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <header class="row">
+          <div class="col-md-12">
+            <h1 class="logo">Ugly Email</h1>
+            <nav>
+              <ul>
+                <li><a href="#how" title="How it Works">How It Works</a></li>
+                <li><a href="#trackers" title="Trackers">Trackers</a></li>
+                <li><a href="#contribute" title="Contribute">Contribute</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-12 hero">
+            <h3>Get Back Your Email Privacy. <br /> <strong>Block</strong> Email Tracking.</h3>
+            <p>The #1 most downloaded <strong>Gmail</strong> extension for blocking read receipts <br /> and other email tracking pixels.</p>
+            <a href="https://chrome.google.com/webstore/detail/uglyemail/ldgiafaliifpknmgofiifianlnbgflgj" onclick="ga('send', 'event', 'Site', 'Download Chrome Plugin');" class="button"><i class="fa fa-download"></i> Install For Chrome</a>
+          </div>
         </header>
 
-        <section>
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center subscribe">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe to our newsletter to receive news, updates and new releases by email. We don't do spam.</p>
-                    <form id="subscribe_form">
-                        <p><label for="mc-email"></label></p>
-                        <input id="mc-email" type="email" placeholder="Your Email" required />
-                        <button type="submit" class="button orange">Send</button>
-                    </form>
-                </div>
-            </div>
+        <section class="row" id="how">
+          <div class="col-xs-12">
+            <h3>How It Works</h3>
+          </div>
+
+          <div class="col-md-6 col-sm-6 text-center">
+            <img src="/ugly.png" alt="Evil Eye" class="ugly-image img-responsive" />
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <p>Ugly Email is a <strong>Gmail</strong> plug-in. When a tracker is detected, it shows the icon of an <strong>eyeball</strong> in the subject line to alert you that a tracker is hidden inside the email.</p>
+            <p>Rest assured that all detected trackers are blocked and you can freely open your emails.</p>
+          </div>
+          <div class="col-xs-12 text-center">
+            <br /> <small>Ugly Email does not store, transfer, transmit or save any of your data.</small>
+          </div>
         </section>
 
-        <section>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center featured">
-                    <h3>Featured On</h3>
-                    <p>
-                        <a href="http://www.producthunt.com/posts/ugly-email" target="_blank"><img src="/img/ph.jpg" height="100px" alt="Product Hunt" /></a>
-                        <a href="http://www.businessinsider.com/how-to-see-if-my-emails-are-being-tracked-in-gmail-2015-3" target="_blank"><img src="/img/bi.jpg" height="100px" alt="Business Insider" /></a>
-                        <a href="http://www.wired.com/2015/03/ugly-mail/" target="_blank"><img src="/img/wired.jpg" height="100px" alt="Wired" /></a>
-                    </p>
-                </div>
-            </div>
+        <section class="row" id="featured">
+          <div class="col-xs-12">
+            <h3>Featured On</h3>
+          </div>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="http://www.producthunt.com/posts/ugly-email" target="_blank">Product Hunt</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="http://www.businessinsider.com/how-to-see-if-my-emails-are-being-tracked-in-gmail-2015-3" target="_blank">Business Insider</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="http://www.wired.com/2015/03/ugly-mail/" target="_blank">Wired</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="https://www.nytimes.com/2015/11/19/technology/personaltech/foiling-electronic-snoops-in-email.html" target="_blank">The New York Times</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="https://www.bloomberg.com/news/articles/2015-05-21/the-best-gmail-hacks-for-getting-work-done" target="_blank">Bloomberg</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="https://www.buzzfeed.com/nicolenguyen/apps-that-will-change-the-way-you-use-gmail" target="_blank">BuzzFeed News</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="https://www.lifehacker.com.au/2017/03/how-to-tell-if-someone-is-tracking-your-emails/" target="_blank">Lifehacker</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="http://www.tropicalmba.com/uglymail/" target="_blank">Tropical MBA</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="http://www.ghacks.net/2015/03/20/ugly-email-highlights-trackers-on-gmail-but-do-you-really-need-it/" target="_blank">Ghacks Technology News</a></p>
+          <p class="col-xs-6 col-sm-4 col-md-3"><a href="http://www.gizbot.com/how-to/features/10-gmail-extensions-that-bring-the-full-potential-your-mailbox-news/slider-pf56840-033059.html" target="_blank">Gizbot</a></p>
         </section>
 
-        <section>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 center">
-                            <img src="/img/ue.jpg" alt="Evil Eye" class="feature-items" />
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <h3>Evil Eye</h3>
-                            <p>Ugly Email safely sniffs through the emails in your inbox and exposes the emails that are being tracked. Every tracked email is marked with the "evil eye" so you can easily identify them.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="row" id="trackers">
+          <div class="col-md-10 col-md-offset-1">
+            <h3>Blocked Trackers</h3>
+            <p>We are actively working on adding more trackers, feel free to make suggestions.</p>
+            <ul class="trackers">
+              <li><i class="fa fa-check"></i> MailChimp</li>
+              <li><i class="fa fa-check"></i> SendGrid</li>
+              <li><i class="fa fa-check"></i> Drip</li>
+              <li><i class="fa fa-check"></i> Mailgun</li>
+              <li><i class="fa fa-check"></i> Streak</li>
+              <li><i class="fa fa-check"></i> Bananatag</li>
+              <li><i class="fa fa-check"></i> Yesware</li>
+              <li><i class="fa fa-check"></i> Postmark</li>
+              <li><i class="fa fa-check"></i> Sidekick</li>
+              <li><i class="fa fa-check"></i> TinyLetter</li>
+              <li><i class="fa fa-check"></i> MixMax</li>
+              <li><i class="fa fa-check"></i> MailTrack</li>
+              <li><i class="fa fa-check"></i> toutapp</li>
+              <li><i class="fa fa-check"></i> Litmus</li>
+              <li><i class="fa fa-check"></i> Boomerang</li>
+              <li><i class="fa fa-check"></i> ContactMonkey</li>
+              <li><i class="fa fa-check"></i> Cirrus Insight</li>
+              <li><i class="fa fa-check"></i> Polymail</li>
+              <li><i class="fa fa-check"></i> YAMM</li>
+              <li><i class="fa fa-check"></i> GetResponse</li>
+              <li><i class="fa fa-check"></i> phpList</li>
+              <li><i class="fa fa-check"></i> Close.io</li>
+              <li class="suggest"><a href="mailto:hello+tracker@uglyemail.com" onclick="ga('send', 'event', 'Site', 'Track Suggest');" target="_blank"><i class="fa fa-share"></i> Suggest</a></li>
+            </ul>
+          </div>
         </section>
 
-        <section>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="visible-xs col-md-4 col-sm-4 center">
-                            <img src="http://www.google.com/images/icons/product/googlemail-128.png" alt="Gmail" class="feature-items" />
-                        </div>
-                        <div class="col-md-8 col-sm-8">
-                            <h3>Gmail</h3>
-                            <p>Ugly Email is a Gmail extension that allows you to see if the email is being tracked before opening it. It seamlessly integrates with Gmail.</p>
-                        </div>
-                        <div class="hidden-xs col-md-4 col-sm-4 center">
-                            <img src="http://www.google.com/images/icons/product/googlemail-128.png" alt="Gmail" class="feature-items" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="row" id="subscribe">
+          <div class="col-md-8 col-md-offset-2">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter to receive news, updates and new releases by email. We don't do spam.</p>
+
+            <form id="subscribe_form">
+              <p><label for="mc-email"></label></p>
+              <div class="subscribe-container">
+                <input id="mc-email" type="email" placeholder="Your Email" required />
+                <button type="submit" class="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
         </section>
 
-        <section>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 center">
-                            <img src="/img/mail.png" alt="Ugly Email" class="feature-items" />
-                        </div>
-                        <div class="col-md-8 col-sm-8">
-                            <h3>Ugly Email</h3>
-                            <p>Once you've installed Ugly Email, open a new Gmail tab and try looking at your inbox. You should see the Ugly Email "eye" indicator next to each email that is being tracked.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="row" id="contribute">
+          <div class="col-md-12">
+            <h3>This is how you can help</h3>
+          </div>
+          <div class="col-sm-6">
+            <p><strong>Donate</strong></p>
+            <p>Contributions are requested and optional. They help sustain our work and keep Ugly Email running.</p>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="JZPWYRGC778U4">
+              <button type="submit" class="button button-small blue"><i class="fa fa-paypal"></i> Click Here To Donate</button>
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            <br />
+          </div>
+          <div class="col-sm-6">
+            <p><strong>Report Bugs and Trackers</strong></p>
+            <p>Please report any bugs you find in Ugly Email. Bug reports from users are the primary means of quality assurance.</p>
+            <br />
+            <a href="mailto:hello+bug@uglyemail.com" onclick="ga('send', 'event', 'Site', 'Bug Report');" target="_blank" class="button button-small"><i class="fa fa-bug"></i> Click Here To Report</a>
+            <br />
+          </div>
         </section>
 
-        <section>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="visible-xs col-md-4 col-sm-4 center">
-                            <img src="/img/track.png" alt="Ugly Email" class="feature-items" />
-                        </div>
-                        <div class="col-md-8 col-sm-8">
-                            <h3>Email Trackers</h3>
-                            <p>Currently we detect tracking pixels from Streak, Yesware, Mandrill, MailChimp, Postmark, TinyLetter, Sidekick, MixMax and Bananatag. Actively working on adding more.</p>
-                        </div>
-                        <div class="hidden-xs col-md-4 col-sm-4 center">
-                            <img src="/img/track.png" alt="Ugly Email" class="feature-items" />
-                        </div>
-                    </div>
-                </div>
+        <section class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h3>Contact</h3>
+            <p>Follow us on Twitter <a href="http://twitter.com/oneclicklab" onclick="ga('send', 'event', 'Site', 'Twitter');" target="_blank">@oneclicklab</a>, <a href="http://twitter.com/sonnyt" onclick="ga('send', 'event', 'Site', 'Personal Twitter');" target="_blank">@sonnyt</a> to stay updated. If you run into any problems, please feel free to send us an email at <a href="mailto:hello@uglyemail.com" onclick="ga('send', 'event', 'Site', 'Email');" target="_blank">hello@uglyemail.com</a></p>
+            <div class="twitter">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://uglyemail.com" data-via="oneclicklab">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
+            <div class="facebook">
+              <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fuglyemail.com&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+            </div>
+          </div>
         </section>
 
-        <section>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 center">
-                            <img src="/img/social.png" alt="Ugly Email" class="feature-items" />
-                        </div>
-                        <div class="col-md-8 col-sm-8">
-                            <h3>Contact Us</h3>
-                            <p>
-                                Follow us on Twitter <a href="http://twitter.com/oneclicklab" onclick="ga('send', 'event', 'Site', 'Twitter');">@oneclicklab</a>, <a href="http://twitter.com/sonnyt" onclick="ga('send', 'event', 'Site', 'Personal Twitter');">@sonnyt</a> to stay updated. If you run into any problems, please feel free to send us an email at <a href="mailto:hello@uglyemail.com" onclick="ga('send', 'event', 'Site', 'Email');" target="_blank">hello@uglyemail.com</a>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row">
-                <div class="col-md-3 col-md-offset-5">
-                    <div class="twitter">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://uglyemail.com" data-via="oneclicklab">Tweet</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    </div>
-                    <div class="facebook">
-                        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fuglyemail.com&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h3>Disclaimer</h3>
-                    <p><small>Ugly Email does not store, transfer, transmit or save any of your data.</small></p>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer center">
+        <footer class="row">
+          <div class="col-md-12">
+            <hr />
             <p>&copy; Copyright <script type="text/javascript"> document.write(new Date().getFullYear()); </script> OneClick Lab.</p>
+          </div>
         </footer>
+      </div>
     </div>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
-    <script type="text/javascript">
-        $('#subscribe_form').ajaxChimp({
-            url: 'http://oneclicklab.us11.list-manage.com/subscribe/post?u=7bad06efce9e3d42ed6f92c8e&id=17f5c3e785'
-        });
-    </script>
+  </div>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#subscribe_form').ajaxChimp({
+        url: 'http://oneclicklab.us11.list-manage.com/subscribe/post?u=7bad06efce9e3d42ed6f92c8e&id=17f5c3e785'
+      });
+
+      $('nav a').click(function(e) {
+        e.preventDefault();
+        var id = $(this).attr('href');
+        $('html, body').animate({ scrollTop: $(id).offset().top }, 500);
+      });
+    });
+  </script>
 </body>
 </html>
