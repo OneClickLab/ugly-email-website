@@ -11,6 +11,7 @@ window.UglyEmailTracker = {
     'sidekickopen': 'Sidekick',
     'tinyletterapp.com': 'TinyLetter',
     'email.mixmax.com': 'MixMax',
+    'track.mixmax.com': 'MixMax',
     'mailtrack.io': 'MailTrack',
     'toutapp.com': 'toutapp',
     'emltrk.com': 'Litmus',
@@ -24,4 +25,4 @@ window.UglyEmailTracker = {
     'close.io/email_opened': 'Close.io'
 };
 
-window.UglyEmailPixelVersion = '1.0.2';
+window.UglyEmailPixelVersion = '1.0.3';
