@@ -22,7 +22,8 @@ window.UglyEmailTracker = {
     'yamm-track.appspot': 'YAMM',
     '/open.html?x=': 'GetResponse',
     '/ut.php?u=': 'phpList',
-    'close.io/email_opened': 'Close.io'
+    'close.io/email_opened': 'Close.io',
+    '.net/on.jsp?': 'Constant Contact'
 };
 
-window.UglyEmailPixelVersion = '1.0.3';
+window.UglyEmailPixelVersion = '1.0.4';
