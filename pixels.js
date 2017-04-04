@@ -19,6 +19,7 @@ window.UglyEmailTracker = {
     'contactmonkey.com/api/v1/tracker': 'ContactMonkey',
     'tracking.cirrusinsight.com': 'Cirrus Insight',
     'welovepg.polymail.io': 'Polymail',
+    'polymail.io/v2/z': 'Polymail',
     'yamm-track.appspot': 'YAMM',
     '/open.html?x=': 'GetResponse',
     '/ut.php?u=': 'phpList',
@@ -26,4 +27,4 @@ window.UglyEmailTracker = {
     '.net/on.jsp?': 'Constant Contact'
 };
 
-window.UglyEmailPixelVersion = '1.0.4';
+window.UglyEmailPixelVersion = '1.0.5';
