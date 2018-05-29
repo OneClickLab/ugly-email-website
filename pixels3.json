@@ -25,7 +25,7 @@
     "\/ut.php\\?u=": "phpList",
     "close.io\/email_opened": "Close.io",
     ".net\/on.jsp\\?": "Constant Contact",
-    "\/trk\?t=": "Marketo",
+    "\/trk\\?t=": "Marketo",
     "returnpath.net\/pixel.gif": "Return Path",
     "outrch.com\/api\/mailings\/opened": "Outreach",
     "via.intercom-mail-(.*).com\/o\\?": "Intercom",
