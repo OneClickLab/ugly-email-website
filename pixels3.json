@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
   "pixels": {
-    "\/track\/open.php\?u=": "MailChimp",
-    "\/wf\/open\?upn=": "SendGrid",
+    "\/track\/open.php\\?u=": "MailChimp",
+    "\/wf\/open\\?upn=": "SendGrid",
     "dripemail2": "Drip",
     "\/o\/": "Mailgun",
     "mailfoogae.appspot.com": "Streak",
@@ -21,14 +21,14 @@
     "welovepg.polymail.io": "Polymail",
     "polymail.io\/v2\/z": "Polymail",
     "yamm-track.appspot": "YAMM",
-    "\/open.html\?x=": "GetResponse",
-    "\/ut.php\?u=": "phpList",
+    "\/open.html\\?x=": "GetResponse",
+    "\/ut.php\\?u=": "phpList",
     "close.io\/email_opened": "Close.io",
-    ".net\/on.jsp\?": "Constant Contact",
+    ".net\/on.jsp\\?": "Constant Contact",
     "\/trk\?t=": "Marketo",
     "returnpath.net\/pixel.gif": "Return Path",
     "outrch.com\/api\/mailings\/opened": "Outreach",
-    "via.intercom-mail-(.*).com\/o\?": "Intercom",
+    "via.intercom-mail-(.*).com\/o\\?": "Intercom",
     "\/\/links.(.*)\/oo\/": "Mailjet",
     "https:\/\/nethunt.com\/api\/v1\/track\/email\/": "Nethunt"
   }
