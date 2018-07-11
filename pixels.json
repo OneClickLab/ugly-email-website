@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "pixels": {
     "\/track\/open.php\\?u=": "MailChimp",
     "\/wf\/open\\?upn=": "SendGrid",
@@ -12,7 +12,7 @@
     "(t.signauxtrois.com|sidekickopen)": "Sidekick",
     "tinyletterapp.com": "TinyLetter",
     "(email|track).mixmax.com": "MixMax",
-    "mailtrack.io": "MailTrack",
+    "https:\/\/mltrk.io\/pixel\/|mailtrack.io": "MailTrack",
     "toutapp.com": "ToutApp",
     "emltrk.com": "Litmus",
     "mailstat.us\/tr": "Boomerang",
