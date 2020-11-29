@@ -1,0 +1,142 @@
+@import url('https://use.fontawesome.com/releases/v5.14.0/css/all.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500|800&display=swap');
+
+body {
+  color: #1D1726;
+  font-family: Poppins,sans-serif;
+  font-weight: 300;
+}
+
+nav {
+  font-weight: 400;
+}
+
+b, strong {
+  font-weight: 800;
+}
+
+input:active, input:focus, input:hover,
+button:active, button:focus, button:hover {
+  box-shadow: none !important;
+}
+
+a {
+  color: #0045ff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.fas.display-4 {
+  font-weight: 900;
+}
+
+.img-logo {
+  opacity: .75;
+}
+
+.img-logo:hover {
+  opacity: 1;
+}
+
+.bg-secondary {
+  background-color: #EDF0F7 !important;
+}
+
+.bg-primary {
+  background-color: #0045ff !important;
+}
+
+.text-dark {
+  color: #1D1726 !important;
+}
+
+.text-secondary {
+  color: #A5B3CF !important;
+}
+
+.text-primary {
+  color: #0045ff !important;
+}
+
+.btn {
+  padding: .6rem 1rem;
+  border-radius: .6rem;
+}
+
+.btn-lg {
+  padding: .7rem 1.4rem;
+}
+
+.btn-outline-primary {
+  color: #0045ff;
+  border-color: #0045ff;
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary:focus,
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: #0045ff !important;
+  border-color: #0045ff !important;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #0045ff;
+  border-color: #0045ff;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #0112FF !important;
+  border-color: #0112FF !important;
+}
+
+.btn-secondary {
+  color: #1D1726;
+  background-color: #EDF0F7;
+  border-color: #EDF0F7;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+  background-color: #919eb8 !important;
+  border-color: #919eb8 !important;
+}
+
+.donate .btn {
+  color: white;
+}
+
+.donate .paypal {
+  background-color: #0070ba;
+  border-color: #0070ba;
+}
+
+.donate .btc {
+  background-color: #FFAD02;
+  border-color: #FFAD02;
+}
+
+.donate .btc i {
+  transform: rotate(20deg);
+}
+
+.donate .bch {
+  background-color: #8DC451;
+  border-color: #8DC451;
+}
+
+.donate .bch i {
+  transform: rotate(-20deg);
+}
+
+.donate .eth {
+  background-color: #6F7CBA;
+  border-color: #6F7CBA;
+}
