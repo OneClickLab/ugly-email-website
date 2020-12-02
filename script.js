@@ -20,35 +20,16 @@ var app = new Vue({
     }
   },
   created() {
-    var _self = this;
-
-    var fetchPixels = function() {
-      return fetch('https://trackers.uglyemail.com/list.txt')
-        .then(function(request) {
-          return request.text();
-        })
-        .then(function(res) {
-          return res.split('\n').map(function(row) {
-            return row.split('@@=')[0];
-          });
+    fetch('https://trackers.uglyemail.com/list.txt')
+      .then(function(request) {
+        return request.text();
+      })
+      .then(function(res) {
+        var pixels = res.split('\n').map(function(row) {
+          return row.split('@@=')[0];
         });
-    };
 
-    // var fetchVersion = function() {
-    //   return fetch('https://api.github.com/repos/OneClickLab/ugly-email-trackers/tags')
-    //     .then(function(request) {
-    //       return request.json();
-    //     })
-    //     .then(function(res) {
-    //       return res[0].name;
-    //     });
-    // };
-
-    Promise
-      .all([ fetchPixels() ])
-      .then(function(responses) {
-        // _self.version = responses[0];
-        _self.allPixels = responses[0].sort();
-      });
+        this.allPixels = pixels.sort();
+      }.bind(this));
   }
 });
