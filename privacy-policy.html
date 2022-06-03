@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ugly Email - Gmail extension for blocking read receipts and other email tracking pixels.</title>
+  <meta name="description"
+    content="The #1 most downloaded Gmail extension for blocking read receipts and other email tracking pixels.">
+  <meta name="keywords" content="Chrome, Firefox, Extension, Track, Email, Block, Tracking, Gmail">
+  <meta name="author" content="OneClick Lab">
+  <link href="/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="app" class="container">
+    <header class="row my-5">
+      <div class="col-12 col-md-6 text-center text-md-left mb-4 mb-md-0">
+        <h4 class="m-0">
+          <a href="/" class="text-dark">Ugly Email</a>
+        </h4>
+      </div>
+      <nav class="col-12 col-md-6 text-center text-md-right align-self-center">
+        <ul class="list-inline m-0">
+          <li class="list-inline-item">
+            <a href="#faq" v-on:click="onNavClick('faq')">FAQ</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#sponsor" v-on:click="onNavClick('sponsor')">Sponsor</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#trackers" v-on:click="onNavClick('trackers')">Trackers</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/OneClickLab/ugly-email-extension" rel="noopener" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="sponsor" class="row my-5 py-5">
+      <div class="col-12 col-md-8 mx-auto text-center">
+        <h3 class="mb-3">Privacy Policy</h3>
+        <p>Ugly Email does not not track, transfer, or store any of your information. All your data is stored on your browser's <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" rel="noopener" target="_blank">IndexDB</a> storage locally.</p>
+        <p>Source code of the extension is available on <a href="https://github.com/OneClickLab/ugly-email-extension" rel="noopener" target="_blank">GitHub</a>.</p>
+      </div>
+    </section>
+
+    <footer class="row my-5 pt-5 pb-3 small text-secondary">
+      <div class="col-12">
+        <hr>
+      </div>
+      <div class="col">&copy; Copyright {{copyRightYear}} OneClick Lab.</div>
+      <div class="col text-right">
+        <a href="https://oneclicklab.com" class="text-secondary" rel="noopener" target="_blank">oneclicklab.com</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
